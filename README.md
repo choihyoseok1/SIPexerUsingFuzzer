@@ -89,7 +89,7 @@ SIPexer 메시지의 T1 Timeout 시간 (재전송 대기 시간, 응답 없을 �
 
 
 
-```go.build .```
+```go build .```
 
 명령어 이후 실행
 
