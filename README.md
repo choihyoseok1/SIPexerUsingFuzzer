@@ -3,28 +3,28 @@
 SIPexer를 이용한 Fuzzer입니다.
 
 기본 Config.json 형식
-{
-	"method": "INVITE",
-	"fuser": "ChoiHyoSeok",
-	"fdomain": "localhost",
-	"tuser": "CapstoneDesign",
-	"tdomain": "localhost",
-	"viabranch": "$uuid",
-	"rport": ";rport",
-	"fromtag": "$uuid",
-	"totag": "",
-	"callid": "$uuid",
-	"cseqnum": "$randseq",
-	"date": "$daterfc1123",
-	"sdpuser": "HelloIamSDP",
-	"sdpsessid": "$timestamp",
-	"sdpsessversion": "$timestamp",
-	"sdpaf": "IP4",
-	"sdprtpport": "30000",
-	"sdpafieldfuzz1": "",
-	"sdpafieldfuzz2": "",
-	"sdpafieldfuzz3": "$randstr(5)"
-}
+	{
+		"method": "INVITE",
+		"fuser": "ChoiHyoSeok",
+		"fdomain": "localhost",
+		"tuser": "CapstoneDesign",
+		"tdomain": "localhost",
+		"viabranch": "$uuid",
+		"rport": ";rport",
+		"fromtag": "$uuid",
+		"totag": "",
+		"callid": "$uuid",
+		"cseqnum": "$randseq",
+		"date": "$daterfc1123",
+		"sdpuser": "HelloIamSDP",
+		"sdpsessid": "$timestamp",
+		"sdpsessversion": "$timestamp",
+		"sdpaf": "IP4",
+		"sdprtpport": "30000",
+		"sdpafieldfuzz1": "",
+		"sdpafieldfuzz2": "",
+		"sdpafieldfuzz3": "$randstr(5)"
+	}
 
 Json이 적용되는 Field 구조
 
