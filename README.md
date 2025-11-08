@@ -86,7 +86,9 @@ SIPexer 메시지의 T1 Timeout 시간 (재전송 대기 시간, 응답 없을 �
 
 ```rc_count = "10"```
 
+
 ```go.build .```
+
 명령어 이후 실행
 
 폴더 내의 python server mini_server.py를 통해 체크 가능함
