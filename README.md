@@ -67,6 +67,7 @@ SIPexer_Fuzzer_Tool.py에서 내부 설정 수정 가능
 설정
 
 사용할 JSON 설정 파일명
+
 ```config_file = "config.json"```
 
 SIP 요청을 보낼 대상 주소 (예: "udp:127.0.0.1:5060")
